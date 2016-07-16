@@ -40,9 +40,12 @@ Lembre-se apenas de ser uma pessoa legal e enviar de volta eventuais modificaç�
 ## Instalação e Uso
 
 1 - Descompacte o arquivo .zip dentro da raiz do projeto do CodeIgniter
+
 2 - Carregue a biblioteca utilizando o método load do codeigniter
+
 3 - Configure os parametros iniciais e use a classe conforme necessidade (ver exemplo abaixo)
 
+Arquivo PHP
 ``` php
 <?php
 
@@ -109,6 +112,9 @@ public function teste() {
     }
 }
 ```
+
+Arquivo HTML
+
 ``` html
 <!DOCTYPE html>
 <html>
