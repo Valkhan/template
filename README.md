@@ -154,4 +154,5 @@ Arquivo HTML
 </body>
 </html>
 ```
-Qualquer dúvida quanto ao funcionamento da classe em si, por gentileza atentar aos exemplos deixados pelo Rael em seu repositório.
+Qualquer dúvida quanto ao funcionamento da classe em si, por gentileza atentar aos exemplos deixados pelo Rael em seu repositório ou pelo site:
+http://raelcunha.com/template/
