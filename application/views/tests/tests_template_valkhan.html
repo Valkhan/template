@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{TITLE}</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        fleft{
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>Folders</h1>
+    <!-- BEGIN NEST1 -->
+    /{NAME_NEST1}<br>
+        <!-- BEGIN NEST2 -->
+        /{NAME_NEST1}/{NAME_NEST2}<br>
+            <!-- BEGIN NEST3 -->
+            /{NAME_NEST1}/{NAME_NEST2}/{NAME_NEST3}<br>
+            <!-- END NEST3 -->
+        <!-- END NEST2 -->
+    <br>    
+    <!-- END NEST1 -->
+    <hr>
+    <h1>Vehicles</h1>
+    <!-- BEGIN VEHICLES -->
+    <div class="fleft">{NAME} / {TYPE}</div>
+    <!-- END VEHICLES -->
+    <hr>
+    <!-- BEGIN FINALLYEXAMPLE -->
+    {SOMEVAR}
+    <!-- END FINALLYEXAMPLE -->
+    Nothing sent to 'FINALLYEXAMPLE' block.
+    <!-- FINALLY -->
+</body>
+</html>
